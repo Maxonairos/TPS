@@ -102,7 +102,7 @@ main{
     text-align: center;
 }
 header{
-    background-image: url('/multimedia/images/header.jpg');
+    background-image: url('../multimedia/images/header.jpg');
     background-size: contain;
     background-repeat: repeat-x;
     height: 10vh;
