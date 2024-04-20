@@ -9,11 +9,11 @@
 }
 @font-face {
     font-family: "BaiJamjuree-Regular";
-    src: url(../fonts/BaiJamjuree-Regular.ttf);
+    src: url(../fonts/baiJamjuree-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto-Regular";
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/roboto-Regular.ttf);
 }
 .main{
     background-color: #000000a1;
@@ -52,7 +52,7 @@ nav{
 }
 /*titulos y cajas*/
 body{
-    background-image: url("../images/background3.jpg");
+    background-image: url("../multimedia/images/background3.jpg");
     background-size: cover; 
     width: 100%;
     min-height: 100vh;
@@ -109,7 +109,7 @@ body{
     text-align: center;
 }
 header{
-    background-image: url("../images/header.jpg");
+    background-image: url("../multimedia/images/header.jpg");
     background-size: contain;
     background-repeat: repeat-x;
     background-color: #ffffffc4;
@@ -181,7 +181,7 @@ header{
     font-size: 2rem;
     color: whitesmoke;
     padding: 15px;   
-    font-family: "Roboto-Regular"
+    font-family: "roboto-Regular"
 }
 .h:hover{
     background-color:#9E3D9E;
