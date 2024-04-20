@@ -15,12 +15,7 @@
     font-family: "Roboto-Regular";
     src: url(../fonts/roboto-Regular.ttf);
 }
-.main{
-    background-color: #000000a1;
-    width: 100%;
-    
-}
-nav{
+.navS{
     position: sticky;
     top: 0px;
     background-color: #6E268E;
@@ -51,13 +46,11 @@ nav{
 
 }
 /*titulos y cajas*/
-body{
+main{
     background-image: url("../multimedia/images/background.jpg");
     background-size: cover; 
     width: 100%;
     min-height: 100vh;
-    position: relative;
-    padding-bottom: 120px;
 }
 .ico{
     width: 30px
@@ -109,18 +102,17 @@ body{
     text-align: center;
 }
 header{
-    background-image: url("../multimedia/images/header.jpg");
+    background-image: url('/multimedia/images/header.jpg');
     background-size: contain;
     background-repeat: repeat-x;
-    background-color: #ffffffc4;
-    height: 120px;
+    height: 10vh;
 }
 /*footer*/
 .footer{
-    position: absolute;
+    position: relative;
     bottom: 0px;
     z-index: 0;
-    height: 10vh;
+    height: 8vh;
 }
 .copyleft{
     font-size: large;
