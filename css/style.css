@@ -52,7 +52,7 @@ nav{
 }
 /*titulos y cajas*/
 body{
-    background-image: url("../multimedia/images/background3.jpg");
+    background-image: url("../multimedia/images/background.jpg");
     background-size: cover; 
     width: 100%;
     min-height: 100vh;
@@ -185,13 +185,13 @@ header{
 }
 .h:hover{
     background-color:#9E3D9E;
-    border: #dadada solid 0.1px;
+    border: #dadada solid 0px;
     border-radius: 13px;
 }
-.h2:hover{
+.titleImage:hover{
     background-color:#9E3D9E;
     border: #dadada solid 0px;
-    border-radius: 50px;
+    border-radius: 12px;
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
