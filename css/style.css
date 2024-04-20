@@ -140,12 +140,12 @@ header{
 .svg{
     background-size: cover;
     position: fixed;
-    bottom: 60px;
-    right: 40px; 
+    bottom: 20px;
+    right: 20px; 
     width: 70px;
     height: 70px;
     padding: 4px;
-    margin: 20px;
+    margin: 10px;
     background-color:#6E268E;
     border-radius: 50px;
     z-index: 1;
