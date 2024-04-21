@@ -115,7 +115,7 @@ header{
     height: 8vh;
 }
 .copyleft{
-    font-size: large;
+    font-size: 1rem;
     text-align: center;
     color: #dadada; 
     font-family: "baiJamjuree-Regular"
@@ -140,7 +140,7 @@ header{
 .svg{
     background-size: cover;
     position: fixed;
-    bottom: 1vh;
+    bottom: 5vh;
     right: 1vw; 
     width: 65px;
     padding: 4px;
@@ -178,12 +178,14 @@ header{
     background-color:#9E3D9E;
     border: #dadada solid 0px;
     border-radius: 13px;
+    transform: scale(101%);
+    transition: transform 0.3s ease;
 }
 .titleImage:hover{
     background-color:#9E3D9E;
     border: #dadada solid 0px;
     border-radius: 12px;
-    transform: scale(1.1);
+    transform: scale(101%);
     transition: transform 0.3s ease;
 }
 .ico:hover{
