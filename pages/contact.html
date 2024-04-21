@@ -36,22 +36,22 @@
             <div class="form">
                 <form action="">
                     <fieldset>
-                        <legend class="inputs">Datos de Contacto</legend>
+                        <div class="title2 container-fluid">Datos de Contacto</div>
                         <div class="inputs">
                             <label for="name">Nombre:</label>
-                            <input class="field" type="text" name="name" placeholder="Nombre Completo"required>
+                            <input class="" type="text" name="name" placeholder="Nombre Completo"required>
                         </div>
                         <div class="inputs">
                             <label for="surname">Apellido:</label>
-                            <input class="field" type="text" name="surname" placeholder="Apellido" required>
+                            <input class="" type="text" name="surname" placeholder="Apellido" required>
                         </div>
                         <div class="inputs">
                             <label for="email">Correo Electrónico:</label>
-                            <input class="field" type="email" name="email" placeholder="example@mail.com" required>
+                            <input class="" type="email" name="email" placeholder="example@mail.com" required>
                         </div>
                         <div class="inputs">
                             <label for="gender">Género</label>
-                            <select class="field" title="Género" name="gender">
+                            <select class="form-select form-select-sm m-2" aria-label="Seleccion de Genero" name="gender">
                                 <option value="male" name="gender">Masculino</option>
                                 <option value="female" name="gender">Femenino</option>
                                 <option value="other" name="gender" selected>No quiero especificar</option>
@@ -67,7 +67,10 @@
                             <label for="reference">Podés dejar tu observación</label>
                         </div>
                         <div class="inputs">
-                            <textarea name="reference" cols="80" rows="11" placeholder="Ingresa tu comentario aquí"></textarea>
+                            <div class="input-group">
+                                <span class="input-group-text">Observaciones</span>
+                                <textarea class="form-control" aria-label="observación"></textarea>
+                            </div>
                         </div>
                         <div class="inputs">
                             <input class="button h h3" type="submit" value="Enviar Datos">
