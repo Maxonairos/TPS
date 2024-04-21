@@ -18,7 +18,7 @@
 .navS{
     position: sticky;
     top: 0px;
-    background-color: #6E268E;
+    background-color: #1C2541;
     z-index: 2;
     width: 100%;
 }
@@ -47,7 +47,7 @@
 }
 /*titulos y cajas*/
 main{
-    background-image: url("../multimedia/images/background.jpg");
+    background-image: url("../multimedia/images/backgroundNew16-9.jpg");
     background-size: cover; 
     width: 100%;
     min-height: 100vh;
@@ -99,7 +99,7 @@ main{
     text-align: center;
 }
 header{
-    background-image: url('../multimedia/images/header.jpg');
+    background-color:#1C2541;
     background-size: contain;
     background-repeat: repeat-x;
     height: 10vh;
@@ -142,7 +142,7 @@ header{
     width: 65px;
     padding: 4px;
     margin: 10px;
-    background-color:#6E268E;
+    background-color:#3A506B;
     border-radius: 50px;
     z-index: 1;
 }
@@ -151,10 +151,10 @@ header{
     position: relative;
     text-align: center;
     padding: 10px;
-    border: #6E268E solid 2px;
+    border: #0B132B solid 2px;
     border-radius: 15px;
     margin: 30px 30px 30px 30px;
-    background-color: #6E268E;
+    background-color: #1C2541;
     width: 300px;
 }
 .yearBox h2{
@@ -172,14 +172,14 @@ header{
     font-family: "roboto-Regular"
 }
 .h:hover{
-    background-color:#9E3D9E;
+    background-color:#3A506B;
     border: #dadada solid 0px;
     border-radius: 13px;
     transform: scale(101%);
     transition: transform 0.3s ease;
 }
 .titleImage:hover{
-    background-color:#9E3D9E;
+    background-color:#3A506B;
     border: #dadada solid 0px;
     border-radius: 12px;
     transform: scale(101%);
@@ -207,7 +207,7 @@ fieldset{
     height: 40px;
     margin: 20px;
     text-align: center;
-    background-color: #6E268E;
+    background-color: #1C2541;
     border-radius: 15px;
     border: none;
     color: whitesmoke;
