@@ -53,7 +53,7 @@ main{
     min-height: 100vh;
 }
 .ico{
-    width: 30px
+    width: 2rem;
 }
 .title{
     padding: 10px;
@@ -246,10 +246,6 @@ fieldset{
     height: 30px;
     margin: 0px;
 }
-.trailer{
-    width: 560px; 
-    height: 312px;
-}
-img{
+.img{
     border-radius: 12px;
 }
