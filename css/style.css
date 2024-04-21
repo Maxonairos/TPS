@@ -106,6 +106,7 @@ header{
 }
 /*footer*/
 .footer{
+    background-color: #1C2541;
     position: relative;
     bottom: 0px;
     z-index: 0;
