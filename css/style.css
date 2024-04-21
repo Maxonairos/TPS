@@ -69,17 +69,14 @@ main{
     position: relative;
     text-align: center;
     color: whitesmoke;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: "baiJamjuree-Regular";
     margin: 0px;
 }
 .parrafo{
-    display: inline-block;
-    position: relative;
+    text-align: start;
     color: whitesmoke;
-    font-size: 1em;
-    padding: 20px;
-    margin: 5px 0px 5px 0px;
+    font-size: 1rem;
     font-family: "baiJamjuree-Regular"
 }
 .listBox{
@@ -199,7 +196,7 @@ header{
     width: 100%;
     text-align: center;
     color: #dadada;
-    font-size: 1em;
+    font-size: 1rem;
     font-family: "baiJamjuree-Regular"
 }
 fieldset{
