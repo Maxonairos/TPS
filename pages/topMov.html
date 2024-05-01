@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="shortcut icon" href="../multimedia/images/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
@@ -23,63 +24,65 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link h navSelec active" href="./topMov.html">Top Películas</a>
-                <a class="nav-link h navSelec" href="./topSeries.html">Top Series</a>
-                <a class="nav-link h navSelec" href="./awards.html">Premios</a>
-                <a class="nav-link h navSelec" href="./contact.html">Contacto</a>
+                <a class="nav-link h navSelec rounded active" href="./topMov.html">Top Películas</a>
+                <a class="nav-link h navSelec rounded" href="./topSeries.html">Top Series</a>
+                <a class="nav-link h navSelec rounded" href="./awards.html">Premios</a>
+                <a class="nav-link h navSelec rounded" href="./contact.html">Contacto</a>
             </div>
         </div>
         </div>
     </nav>
     <main>
         <section class="seccion1">
-            <h2 class="titleBox">
+            <h2 data-aos="fade-up"  class="titleBox">
                 <a class="title2 h" href="./topMov.html">Top Peliculas</a>
             </h2>
             <ol class="listBox">
-                <li>
-                    <h2><a class="title h" href="./titleSelected.html">Título 1</a></h2>
-                    <div>
-                        <a class="" href="./titleSelected.html">
-                            <img class="titleImage" src="../multimedia/images/titleImage.jpg" alt="title">
+                <li data-aos="fade-up">
+                    <h2>
+                        <a class="title h" href="./movie1.html">1er Puesto</a>
+                    </h2>
+                    <div class="">
+                        <a class="" href="./movie1.html">
+                            <img class="titleImage rounded" src="../multimedia/images/the_shawshank_redemption-thumb.jpg" alt="Imagen de la Película - The Shawshank Redemption (1994)">
                         </a>
                     </div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                     <h2>
-                        <a class="title h" href="./titleSelected.html">Título 2</a>
+                        <a class="title h" href="./movie2.html">2do Puesto</a>
                     </h2>
                     <div>
-                        <a class="" href="./titleSelected.html">
-                            <img class="titleImage" src="../multimedia/images/titleImage.jpg" alt="title">
+                        <a class="" href="./movie2.html">
+                            <img class="titleImage rounded" src="../multimedia/images/the-godfather-thumb.jpg" alt="Imagen de la Película - The Godfather (1972)">
                         </a>
                     </div>
                 </li>
-                <li>
-                    <h2><a class="title h" href="./titleSelected.html">Título 3</a></h2>
+                <li data-aos="fade-up">
+                    <h2><a class="title h" href="./movie3.html">3er Puesto</a></h2>
                     <div>
-                        <a class="" href="./titleSelected.html">
-                            <img class="titleImage" src="../multimedia/images/titleImage.jpg" alt="title">
+                        <a class="" href="./movie3.html">
+                            <img class="titleImage rounded" src="../multimedia/images/batman-the-dark-knight-thumb.jpg" alt="Imagen de la Película - Batman - The Dark Knight (2008)">
                         </a>
                     </div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                     <h2>
-                        <a class="title h" href="./titleSelected.html">Título 4</a>
+                        <a class="title h" href="./movie4.html">4to Puesto</a>
                     </h2>
                     <div>
-                        <a class="" href="./titleSelected.html">
-                            <img class="titleImage" src="../multimedia/images/titleImage.jpg" alt="title">
+                        <a class="" href="./movie4.html">
+                            <img class="titleImage rounded" src="../multimedia/images/schindler-list-thumb.jpg" alt="Imagen de la Película - Schindler's List (1993)">
                         </a>
                     </div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                     <h2>
-                        <a class="title h" href="./titleSelected.html">Título 5</a>
+                        <a class="title h" href="./movie5.html">5to Puesto</a>
                     </h2>
                     <div>
-                        <a class="" href="./titleSelected.html">
-                            <img class="titleImage" src="../multimedia/images/titleImage.jpg" alt="title">
+                        <a class="" href="./movie5.html">
+                            <img class="titleImage rounded" src="../multimedia/images/the-lord-of-the-rings-the-return-of-the-king-thumb.jpg" alt="Imagen de la Película - Lord of the Rings - The return of the King (2003)">
                         </a>
                     </div>
                 </li>
@@ -121,6 +124,8 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
