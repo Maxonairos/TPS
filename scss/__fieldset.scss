@@ -6,7 +6,7 @@ fieldset{
         padding: 20px;
         width: 100%;
         text-align: center;
-        color: #dadada;
+        color: $bordes;
         font-size: 1rem;
         font-family: "baiJamjuree-Regular"
     }
@@ -15,10 +15,10 @@ fieldset{
         height: 40px;
         margin: 20px;
         text-align: center;
-        background-color: #1C2541;
+        background-color: $spaceCadet;
         border-radius: 15px;
         border: none;
-        color: whitesmoke;
+        color: $blanquito;
         font-family: "baiJamjuree-Regular";
         font-size: 1rem;
     }

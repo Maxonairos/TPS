@@ -1,5 +1,5 @@
 .footer{
-    background-color: #1C2541;
+    background-color: $spaceCadet;
     position: relative;
     bottom: 0px;
     z-index: 0;
@@ -7,7 +7,7 @@
     .copyleft{
         font-size: 1rem;
         text-align: center;
-        color: #dadada; 
+        color: $bordes; 
         font-family: "baiJamjuree-Regular"
     }
 }

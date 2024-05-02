@@ -1,17 +1,17 @@
 .navS{
     position: sticky;
     top: 0px;
-    background-color: #1C2541;
+    background-color: $spaceCadet;
     z-index: 2;
     width: 100%;
     .navSelec{
         text-align: center;
-        color: whitesmoke;
+        color: $blanquito;
         font-size: 1.2em;
         font-family: "Roboto-Regular";
         padding: 10px 20px 10px 20px;
     }
     .navB{
-        background-color: #3A506B;
+        background-color: $hover;
     }
 }
