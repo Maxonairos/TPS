@@ -1,0 +1,17 @@
+.navS{
+    position: sticky;
+    top: 0px;
+    background-color: #1C2541;
+    z-index: 2;
+    width: 100%;
+    .navSelec{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 1.2em;
+        font-family: "Roboto-Regular";
+        padding: 10px 20px 10px 20px;
+    }
+    .navB{
+        background-color: #3A506B;
+    }
+}

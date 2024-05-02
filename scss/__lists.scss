@@ -1,0 +1,25 @@
+.listBox{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    li{
+        display: inline-block;
+        position: relative;
+        margin: 30px 50px 30px 50px; 
+        text-align: center;  
+    }
+}
+.lista1{
+    display: inline-block;
+    position:relative;
+    width: 100%;
+    li{
+        display: inline-block;
+        position: relative;
+        margin: 5px 30px 5px 30px;
+        border-style: solid;
+        border-radius: 15px;
+        width: 300px;
+    }
+}

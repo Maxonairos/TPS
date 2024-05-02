@@ -1,254 +1,210 @@
-/*reset css*/
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-
-}
-@font-face {
-    font-family: "BaiJamjuree-Regular";
-    src: url(../fonts/baiJamjuree-Regular.ttf);
-}
-@font-face {
-    font-family: "Roboto-Regular";
-    src: url(../fonts/roboto-Regular.ttf);
-}
-.navS{
-    position: sticky;
-    top: 0px;
-    background-color: #1C2541;
-    z-index: 2;
-    width: 100%;
-}
-.lista1{
-    display: inline-block;
-    position:relative;
-    width: 100%;
-
-}
-.lista1 li{
-    display: inline-block;
-    position: relative;
-    margin: 5px 30px 5px 30px;
-    border-style: solid;
-    border-radius: 15px;
-    width: 300px;
-}
-.navSelec{
-    text-align: center;
-    color: whitesmoke;
-    font-size: 1.2em;
-    font-family: "Roboto-Regular";
-    padding: 10px 20px 10px 20px;
-    
-
-}
-/*titulos y cajas*/
-main{
-    background-image: url("../multimedia/images/backgroundNew16-9.jpg");
-    background-size: cover; 
-    width: 100%;
-    min-height: 100vh;
-}
-.ico{
-    width: 2rem;
-}
-.title{
-    padding: 10px;
-    display: block;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 1em;
-    font-family: "baiJamjuree-Regular";
-}
-.title2{
-    padding: 20px;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 1.5rem;
-    font-family: "baiJamjuree-Regular";
-    margin: 0px;
-}
-.parrafo{
-    text-align: start;
-    color: whitesmoke;
-    font-size: 1rem;
-    font-family: "baiJamjuree-Regular"
-}
-.listBox{
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-.listBox li{
-    display: inline-block;
-    position: relative;
-    margin: 30px 50px 30px 50px; 
-    text-align: center;  
-}
-.titleBox{
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-}
-header{
-    background-color:#1C2541;
-    background-size: contain;
-    background-repeat: repeat-x;
-    height: 10vh;
-}
-/*footer*/
-.footer{
-    background-color: #1C2541;
-    position: relative;
-    bottom: 0px;
-    z-index: 0;
-    height: 8vh;
-}
-.copyleft{
-    font-size: 1rem;
-    text-align: center;
-    color: #dadada; 
-    font-family: "baiJamjuree-Regular"
-}
-.socialBox{
-    display: inline-block;
-    position: relative;
-    padding: 5px;
-    width: 45vw; 
-    text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.socialBox ul li{
-    display: inline-block;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-} 
-.svg{
-    background-size: cover;
-    position: fixed;
-    bottom: 5vh;
-    right: 1vw; 
-    width: 65px;
-    padding: 4px;
-    margin: 10px;
-    background-color:#3A506B;
-    border-radius: 50px;
-    z-index: 1;
-}
-.yearBox{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    border: #0B132B solid 2px;
-    border-radius: 15px;
-    margin: 30px 30px 30px 30px;
-    background-color: #1C2541;
-    width: 300px;
-}
-.yearBox h2{
-    display: inline;
-    position: relative;
-    text-align: center;
-    width: 300px;
-}
-.yearBox h2 a{
-    display: inline-block;
-    text-align: center;
-    font-size: 2rem;
-    color: whitesmoke;
-    padding: 15px;   
-    font-family: "roboto-Regular"
-}
-.h:hover{
-    background-color:#3A506B;
-    border: #dadada solid 0px;
-    border-radius: 13px;
-    transform: scale(101%);
-    transition: transform 0.3s ease;
-}
-.titleImage:hover{
-    background-color:#3A506B;
-    border: #dadada solid 0px;
-    border-radius: 12px;
-    transform: scale(101%);
-    transition: transform 0.3s ease;
-}
-.ico:hover{
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
-.inputs{
-    display: inline-block;
-    position: relative;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    color: #dadada;
-    font-size: 1rem;
-    font-family: "baiJamjuree-Regular"
-}
-fieldset{
-    border: none;
-}
-.button{
-    width: 100px;
-    height: 40px;
-    margin: 20px;
-    text-align: center;
-    background-color: #1C2541;
-    border-radius: 15px;
-    border: none;
-    color: whitesmoke;
-    font-family: "baiJamjuree-Regular";
-    font-size: 1rem;
-}
-.field{
-    font-family: "baiJamjuree-Regular"
+main {
+  background-image: url("../multimedia/images/backgroundNew16-9.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
 }
 
-.resumeBox{
-    display: inline-block;
-    position: relative;
-    width: 700px;
-    margin: 10px;
+.listBox {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
-.resume{
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    height: 30px;
-    text-align: start;
+.listBox li {
+  display: inline-block;
+  position: relative;
+  margin: 30px 50px 30px 50px;
+  text-align: center;
 }
-.resume ul{
-    display: inline-block;
-    position: relative;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-}   
-.resume ul li{
-    display: inline-block;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    margin: 0px;
+
+.lista1 {
+  display: inline-block;
+  position: relative;
+  width: 100%;
 }
-.img{
-    border-radius: 12px;
+.lista1 li {
+  display: inline-block;
+  position: relative;
+  margin: 5px 30px 5px 30px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 300px;
 }
-.navB{
-    background-color: #3A506B;
+
+.navS {
+  position: sticky;
+  top: 0px;
+  background-color: #1C2541;
+  z-index: 2;
+  width: 100%;
 }
+.navS .navSelec {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.2em;
+  font-family: "Roboto-Regular";
+  padding: 10px 20px 10px 20px;
+}
+.navS .navB {
+  background-color: #3A506B;
+}
+
+fieldset {
+  border: none;
+}
+fieldset .inputs {
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: #dadada;
+  font-size: 1rem;
+  font-family: "baiJamjuree-Regular";
+}
+fieldset .button {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  text-align: center;
+  background-color: #1C2541;
+  border-radius: 15px;
+  border: none;
+  color: whitesmoke;
+  font-family: "baiJamjuree-Regular";
+  font-size: 1rem;
+}
+
+header {
+  background-color: #1C2541;
+  background-size: contain;
+  background-repeat: repeat-x;
+  height: 10vh;
+}
+
+.footer {
+  background-color: #1C2541;
+  position: relative;
+  bottom: 0px;
+  z-index: 0;
+  height: 8vh;
+}
+.footer .copyleft {
+  font-size: 1rem;
+  text-align: center;
+  color: #dadada;
+  font-family: "baiJamjuree-Regular";
+}
+
+.titleBox {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.yearBox {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  border: #0B132B solid 2px;
+  border-radius: 15px;
+  margin: 30px 30px 30px 30px;
+  background-color: #1C2541;
+  width: 300px;
+}
+.yearBox h2 {
+  display: inline;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+.yearBox h2 a {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  padding: 15px;
+  font-family: "roboto-Regular";
+}
+
+.img {
+  border-radius: 12px;
+}
+
+.ico {
+  width: 2rem;
+}
+.ico:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.svg {
+  background-size: cover;
+  position: fixed;
+  bottom: 5vh;
+  right: 1vw;
+  width: 65px;
+  padding: 4px;
+  margin: 10px;
+  background-color: #3A506B;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.h:hover {
+  background-color: #3A506B;
+  border: #dadada solid 0px;
+  border-radius: 13px;
+  transform: scale(101%);
+  transition: transform 0.3s ease;
+}
+
+.titleImage:hover {
+  background-color: #3A506B;
+  border: #dadada solid 0px;
+  border-radius: 12px;
+  transform: scale(101%);
+  transition: transform 0.3s ease;
+}
+
+.title {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1em;
+  font-family: "baiJamjuree-Regular";
+}
+
+.title2 {
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: "baiJamjuree-Regular";
+  margin: 0px;
+}
+
+.parrafo {
+  text-align: start;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-family: "baiJamjuree-Regular";
+}
+
+/*# sourceMappingURL=style.css.map */

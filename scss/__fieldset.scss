@@ -1,0 +1,25 @@
+fieldset{
+    border: none;
+    .inputs{
+        display: inline-block;
+        position: relative;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        color: #dadada;
+        font-size: 1rem;
+        font-family: "baiJamjuree-Regular"
+    }
+    .button{
+        width: 100px;
+        height: 40px;
+        margin: 20px;
+        text-align: center;
+        background-color: #1C2541;
+        border-radius: 15px;
+        border: none;
+        color: whitesmoke;
+        font-family: "baiJamjuree-Regular";
+        font-size: 1rem;
+    }
+}

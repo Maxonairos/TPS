@@ -1,0 +1,32 @@
+.titleBox{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.yearBox{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    border: #0B132B solid 2px;
+    border-radius: 15px;
+    margin: 30px 30px 30px 30px;
+    background-color: #1C2541;
+    width: 300px;
+    h2{
+        display: inline;
+        position: relative;
+        text-align: center;
+        width: 300px;
+        a{
+            display: inline-block;
+            text-align: center;
+            font-size: 2rem;
+            color: whitesmoke;
+            padding: 15px;   
+            font-family: "roboto-Regular"
+        }
+    }
+}
