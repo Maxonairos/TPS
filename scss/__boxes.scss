@@ -1,19 +1,17 @@
+
 .titleBox{
-    display: inline-block;
-    position: relative;
+    @include dpt();
     padding: 10px;
     width: 100%;
-    text-align: center;
+    
 }
 .yearBox{
-    display: inline-block;
-    position: relative;
-    text-align: center;
+    @include dpt();
     padding: 10px;
-    border: #0B132B solid 2px;
+    border: $spaceCadet solid 2px;
     border-radius: 15px;
     margin: 30px 30px 30px 30px;
-    background-color: #1C2541;
+    background-color: $spaceCadet;
     width: 300px;
     h2{
         display: inline;
@@ -21,10 +19,9 @@
         text-align: center;
         width: 300px;
         a{
-            display: inline-block;
-            text-align: center;
+            @include dpt();
             font-size: 2rem;
-            color: whitesmoke;
+            color: $bordes;
             padding: 15px;   
             font-family: "roboto-Regular"
         }

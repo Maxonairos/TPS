@@ -2,3 +2,8 @@ $blanquito:#f5f5f5;
 $hover:#3A506B;
 $bordes:#dadada;
 $spaceCadet:#1C2541;
+@mixin dpt(){
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
