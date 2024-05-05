@@ -19,6 +19,5 @@
 .parrafo{
     text-align: start;
     color: $blanquito;
-    font-size: 1rem;
-    font-family: "baiJamjuree-Regular"
+    @include textos;
 }
