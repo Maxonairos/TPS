@@ -17,23 +17,18 @@
     width: 65px;
     padding: 4px;
     margin: 10px;
-    background-color:#3A506B;
+    background-color:$hover;
     border-radius: 50px;
     z-index: 1;
 }
 
 
 .h:hover{
-    background-color: $hover;
-    border: $bordes solid 0px;
     border-radius: 13px;
-    transform: scale(101%);
-    transition: transform 0.3s ease;
+    @include icohover;
+    
 }
 .titleImage:hover{
-    background-color: $hover;
-    border: $bordes solid 0px;
     border-radius: 12px;
-    transform: scale(101%);
-    transition: transform 0.3s ease;
+    @include icohover;  
 }

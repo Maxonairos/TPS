@@ -11,3 +11,9 @@ $spaceCadet:#1C2541;
     font-size: 1rem;
     font-family: "baiJamjuree-Regular"
 }
+@mixin icohover(){
+    background-color: $hover;
+    border: $bordes solid 0px;
+    transform: scale(101%);
+    transition: transform 0.3s ease;
+}
