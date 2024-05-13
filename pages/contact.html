@@ -45,7 +45,7 @@
                         <h2 data-aos="fade-right" class="title2 container-fluid inputs h2">Datos de Contacto</h2>
                         <div data-aos="fade-right" class="inputs">
                             <label for="name">Nombre:
-                                <input type="text" name="name" placeholder="Nombre Completo" required>
+                                <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
                             </label>
                         </div>
                         <div data-aos="fade-right" class="inputs">
@@ -68,20 +68,20 @@
                             </label>
                         </div>
                         <div data-aos="fade-right" class="inputs">
-                            <label for="rating">Que te pareció la Página?
+                            <div for="rating">Que te pareció la Página?
                                 <input title="Mala" type="radio" name="rating" value="1">Mala
                                 <input title="Normal" type="radio" name="rating" value="2">Normal
                                 <input title="Muy Buena" type="radio" name="rating" value="3" checked>Muy buena!!!
-                            </label>
+                            </div>
                         </div>
                         <div data-aos="fade-right" class="inputs">
                             <label for="reference">Podés dejar tu observación</label>
+                            <div data-aos="fade-right" class="inputs">
+                                <div class="input-group navB">
+                                    <span class="input-group-text bg-primary-subtle">Observaciones</span>
+                                    <textarea class="form-control" id="reference" aria-label="observación"></textarea>
+                                </div>
                         </div>
-                        <div data-aos="fade-right" class="inputs">
-                            <div class="input-group navB">
-                                <span class="input-group-text bg-primary-subtle">Observaciones</span>
-                                <textarea class="form-control" aria-label="observación"></textarea>
-                            </div>
                         </div>
                         <div data-aos="fade-up" class="inputs">
                             <input class="button h" type="submit" value="Enviar Datos">
