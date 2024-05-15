@@ -24,16 +24,44 @@
     </header>
     <nav class="navS navbar navbar-expand-lg">
         <div class="navS container-fluid">
-        <button class="navbar-toggler navB" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Botón de navegación">
+        <button class="navbar-toggler navB" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Botón de navegación">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link h navSelec rounded" href="./topMov.html">Top Películas</a>
-                <a class="nav-link h navSelec rounded" href="./topSeries.html">Top Series</a>
-                <a class="nav-link h navSelec rounded" href="./awards.html">Premios</a>
-                <a class="nav-link h navSelec rounded" href="./contact.html">Contacto</a>
-            </div>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link h navSelec rounded" href="../pages/topMov.html">Top Películas</a>
+                </li>
+                <li>
+                    <a class="nav-link h navSelec rounded" href="../pages/topSeries.html">Top Series</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle h navSelec rounded" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Premios</a>
+                    <ul class="dropdown-menu navS">
+                        <li>
+                            <a class="dropdown-item h navSelec rounded" href="./awards2018.html">2018</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item h navSelec rounded" href="./awards2019.html">2019</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item h navSelec rounded" href="./awards2020.html">2020</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item h navSelec rounded" href="./awards2021.html">2021</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item h navSelec rounded" href="./awards2022.html">2022</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item h navSelec rounded" href="./awards2023.html">2023</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-link h navSelec rounded" href="../pages/contact.html">Contacto</a>
+                </li>
+            </ul>
         </div>
         </div>
     </nav>
@@ -126,7 +154,7 @@
             </ul>
         </div>
     </footer>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
 </body>

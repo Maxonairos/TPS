@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "@floating-ui/dom": "^1.6.5",
     "aos": "^2.3.4",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
     "sass": "^1.76.0"
   }
 }
